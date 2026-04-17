@@ -1,4 +1,4 @@
-package array;
+package com.multi.array;
 
 public class ArrayEx2 {
     public void arrayExDemo1(int[][] x){

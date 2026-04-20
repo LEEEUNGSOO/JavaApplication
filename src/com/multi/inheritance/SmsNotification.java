@@ -5,7 +5,7 @@ public class SmsNotification extends Notification{
 
     }
     public void send(){
-        super.send();
+        //super.send();
         System.out.println("Sms Notification");
 
     }

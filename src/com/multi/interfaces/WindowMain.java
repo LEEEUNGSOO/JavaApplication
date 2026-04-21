@@ -7,6 +7,5 @@ public class WindowMain {
         m.mouseClicked();
         m=new BWindowClass();
         m.mouseClicked();
-
     }
 }

@@ -1,19 +1,18 @@
 package com.multi.interfaces;
 
-public  class AWindowClass implements MouseListenerEx {
-    @Override
-    public void mouseClicked() {
-        System.out.println("AWindowClass mouseClicked");
+import javax.swing.*;
 
+public  class AWindowClass {
+
+    public AWindowClass(){
+        new AbstractWindowClass(){
+            @Override
+            public void mouseClicked() {
+                super.mouseClicked();
+            }
+        };
     }
 
-    @Override
-    public void mousePress() {
 
-    }
 
-    @Override
-    public void mouseExit() {
-
-    }
 }

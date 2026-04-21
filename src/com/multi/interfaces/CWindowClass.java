@@ -1,7 +1,7 @@
 package com.multi.interfaces;
 
-public class CWindowClass implements MouseListenerEx{
-    @Override
+public class CWindowClass{
+    //@Override
     public void mouseClicked() {
 
     }

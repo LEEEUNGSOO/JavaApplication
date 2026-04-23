@@ -33,12 +33,16 @@ public class BaseLangEx1 {
         System.out.println( str3.equals("JAVA"));//false
 
     }
+    public void objectMethod4(){
+        String str="abc";
+        System.out.println(str.charAt(4));
+    }
 
     public static void main(String[] args) {
         BaseLangEx1 base=new BaseLangEx1();
 //        base.objectMethod2("Hello");
 //        base.objectMethod2(10);
-          base.objectMethod3();
+          base.objectMethod4();
 
     }
 }

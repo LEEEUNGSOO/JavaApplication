@@ -16,8 +16,6 @@ public class AnonymousEx extends Outer {
         System.out.println(this.toString());
     }
 
-
-
     public static void main(String[] args) {
         AnonymousEx a=new AnonymousEx();
         a.listAdd();

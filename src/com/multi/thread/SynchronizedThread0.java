@@ -1,7 +1,7 @@
 package com.multi.thread;
 
 public class SynchronizedThread0 implements  Runnable{
-    private int money=100000;//공유자원
+    private int money=10000;//공유자원
 
     public int getMoney() {
         return money;
@@ -30,6 +30,11 @@ public class SynchronizedThread0 implements  Runnable{
                 try {
                     Thread.sleep(1000);
                     drawMoney(1000);
+                    if(getMoney()==8000|| getMoney()==6000|| getMoney()==4000 ||getMoney()==2000)
+                    this.wait();
+                    else{
+                        this.notify();//waitPool -->LockPool로 이동
+                    }
 
                 } catch (Exception e) {
                     // TODO: handle exception

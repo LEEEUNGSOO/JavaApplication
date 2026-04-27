@@ -1,6 +1,6 @@
 package com.multi.thread;
 
-
+//떨어지는 글자를 객체
 public class Message {
     private int x,y;
     private String msg;

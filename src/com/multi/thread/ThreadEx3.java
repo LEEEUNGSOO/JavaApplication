@@ -6,7 +6,6 @@ public class ThreadEx3 implements  Runnable{
     public void run() {//Thread객체 돌고 있다
         System.out.println("ThreadEx3 Run");
         System.out.println(Thread.currentThread().getName());
-
     }
     public static void main(String[] args) {
         ThreadEx3 t1=new ThreadEx3();//

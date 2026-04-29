@@ -12,6 +12,11 @@ public class CollectionEx5 {
         for (int i = 0; i <students.length ; i++) {
             if(!set1.add(students[i]))set2.add(students[i]);
         }
+        System.out.println(set1);
+        System.out.println(set2);
+
+
+
 
     }
 }

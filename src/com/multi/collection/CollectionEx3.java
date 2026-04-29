@@ -3,6 +3,7 @@ package com.multi.collection;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Vector;
 
 //List,Set,Map
 public class CollectionEx3 {
@@ -12,6 +13,11 @@ public class CollectionEx3 {
         list1.add("딸기");
         list1.add("수박");
         list1.add("멜론");
+
+        Vector<String>vector=new Vector<>();
+        vector.add("김치");
+        vector.add("김밥");
+
 
 //        for(int i=0;i<list1.size();i++){
 //            System.out.println(list1.get(i));

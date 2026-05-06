@@ -2,6 +2,7 @@ package com.multi.lambda;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class LambdaEx10 {
 
@@ -35,6 +36,9 @@ public class LambdaEx10 {
 
         //list.sort(String::compareToIgnoreCase);
         //list.forEach(System.out::println);
+
+        List<String>uperList=list.stream().map(String::toUpperCase).collect(Collectors.toList());
+        uperList.forEach(System.out::println);
 
 
 

@@ -12,7 +12,7 @@ import java.util.Objects;
  *
  * 하나의 Course 객체는 강의 하나를 의미합니다.
  */
-public class Course {
+public class Course extends Object {
 
     // 강의명입니다. 예: Java, Spring, React
     private String title;
